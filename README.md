@@ -10,6 +10,7 @@
 
 <img alt="Awesome GitHub Profile Readme" src="Assets/ReadMeFiles/sample.gif"> </img>
 <i>
+
 We are a team of students from Tongji University and Capital University of Economics and Business. In this project, we have carried out the design of the mechanism of simultaneous drawing by multiple people in the same time and space, point-clouding and segmentation and fusion of patterns. 
 We've invested a lot of time in handwriting recognition to optimize the performance as well as the recognition effect, and we hope this project would give you some ideas about gesture recognition game development. <br>
 The art models used in this project are not commercialized.</i>
@@ -74,25 +75,16 @@ We are sorry that due to the open source agreement and the copyright protection 
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shoreee"><img src="https://github.com/Shoreee.png?s=100" width="100px;" alt="Shroeeee"/><br /><sub><b>Shoreeee</b></sub></a><br />Director</td>
-      
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Haskyyyyyyyy"><img src="https://avatars.githubusercontent.com/u/128458477?v=4?s=100" width="100px;" alt="Haskyyyyyyyy"/><br /><sub><b>Haskyyyyyyyy</b></sub></a><br />Programmer</td>
-      
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ziduzhe"><img src="https://github.com/ziduzhe.png?s=100" width="100px;" alt="ziduzhe"/><br /><sub><b>ziduzhe</b></sub></a><br />Programmer</td>
-      
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/ZJHHHH-123"><img src="https://avatars.githubusercontent.com/u/144782204?v=4?s=100" width="100px;" alt="ZJHHHH-123"/><br /><sub><b>ZJHHHH-123</b></sub></a><br />Programmer</td>
-      
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><img src="https://github.com/octocat.png?s=100" width="100px;" alt="Shroeeee"/><br /><sub><b>Panmas</b></sub><br />Art Design</td>
-      
       <td align="center" valign="top" width="14.28%"><img src="https://github.com/octocat.png?s=100" width="100px;" alt="Haskyyyyyyyy"/><br /><sub><b>kuiyin</b></sub><br />Art Design</td>
-      
       <td align="center" valign="top" width="14.28%"><img src="https://github.com/octocat.png?s=100" width="100px;" alt="ziduzhe"/><br /><sub><b>Sisee</b></sub><br />Art Design</td>
-      
       <td align="center" valign="top" width="14.28%"><a href="https://youtube.com/@yonewaka1139?si=prv4aatJl04EMhxU"><img src="https://github.com/octocat.png?s=100" width="100px;" alt="ZJHHHH-123"/><br /><sub><b>yonewaka米米若</b></sub></a><br />Music& Sound Effects</td>
-      
     </tr>
-    
   </tbody>
   <tfoot>
     <tr>
