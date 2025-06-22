@@ -62,9 +62,9 @@ The art models used in this project are not commercialized.</i>
 We are sorry that due to the open source agreement and the copyright protection of the art development, we can't open source all the resources, so the open source version will be slightly different from the released version on [bilibili](https://www.bilibili.com/video/BV1a179zAExK/?share_source=copy_web&vd_source=4bfa678657048a7912dbdf1bb78d9ca4).But we have already open-sourced the core technology, so you will be able to understand it after a little research!
 ## Implementation Principle
 
-![[Assets/ReadMeFiles/5.png]]
+<img alt="Awesome GitHub Profile Readme" src="Assets/ReadMeFiles/5.png"> </img>
 
-![[Assets/ReadMeFiles/6.png]]
+<img alt="Awesome GitHub Profile Readme" src="Assets/ReadMeFiles/6.png"> </img>
 ## References
 - [mixandjam/Splatoon-Ink: Recreating the Ink System from Splatoon](https://github.com/mixandjam/Splatoon-Ink) 
 - [BrettHuang2019/DigitRecognition](https://github.com/BrettHuang2019/DigitRecognition)
