@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: cn
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: 
+  PunLogging: 2
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - _clear
+  - _pause
+  - _play
+  - _stop
+  - RPC_RemoveFlower
+  - RPC_AddFlower
+  - RPC_AddEnemyToList
+  - RPC_AdjustEnemyCount
+  - RPC_OnEnemyDestroyed
+  - RPC_ReleaseEnemy
+  - RPC_SpawnEnemy
+  - RPC_ApplyRegenBoost
+  - RPC_AddEnergy
+  - RPC_ApplyKnockback
+  - RPC_ApplySlowEffect
+  - RPC_Explode
+  - RPC_UpdateName
+  - RPC_SetPlayerVisible
+  - RPC_PlayGestureParticle
+  - RPC_SetStartTime
+  - RPC_ActivateInfiniteMode
+  - RPC_PlaySound
+  - RPC_EraseFlowers
+  - RPC_GenerateFlowers
+  - RPC_EmitEraseParticle
+  - RPC_EmitInitialEraseParticle
+  - RPC_EraseFlowersBatch
+  - RPC_OnRespawn
+  - RPC_SetDeadState
+  - RPC_SetDeathCamera
+  - RPC_StartEnhanceMode
+  - RPC_StopEnhanceMode
+  - RPC_ShowLoadingScreen
+  - RPC_HandleDeath
+  - RPC_Respawn
+  - RPC_LoadSceneAllClients
+  - RPC_AddAIIcon
+  - RPC_RemoveAIIcon
+  - RPC_CellAnimEnded
+  - RPC_ShowResult
+  - RPC_StartRoll
+  - RPC_NotifyFinished
+  - RPC_ReportRoll
+  - RPC_ApplyJumpBoost
+  - RPC_StartNoEnergyConsumption
+  - RPC_ApplySpeedBoost
+  - RPC_ForwardGenerate
+  - OnReceiveResult
+  - RPC_ClearEnhancedCollections
+  - RPC_RequestAutoRecognize
+  - RPC_PerformAutoRecognize
+  - RPC_BroadcastGesture
+  - RPC_RequestRecognize
+  - RPC_RequestReleaseEnemy
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 0

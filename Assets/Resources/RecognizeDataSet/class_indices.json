@@ -1,0 +1,11 @@
+{
+    "labels": [
+        { "key": "0", "value": "circle_images" },
+        { "key": "1", "value": "cross_images" },
+        { "key": "2", "value": "heart_images" },
+        { "key": "3", "value": "moon_images" },
+        { "key": "4", "value": "square_images" },
+        { "key": "5", "value": "stars_images" },
+        { "key": "6", "value": "triangle_images" }
+    ]
+}

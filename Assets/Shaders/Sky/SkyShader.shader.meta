@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: e97eb39f0a64c1b4299e3456c33412eb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MoonTex: {fileID: 2800000, guid: 638654dd88f055e489348c1c58262523, type: 3}
+  - _Stars: {fileID: 2800000, guid: 4ae3d83af0d2e014a92ee7e69b45d3cc, type: 3}
+  - _CloudNoise: {instanceID: 0}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 66774c62ba85bd64fbc103c8e12be6b1
+  - enabled: 1
+    path: Assets/Scenes/mapSwitch.unity
+    guid: b0853b74e35246046a9e09f5f53bd794
+  - enabled: 0
+    path: Assets/Scenes/Start.unity
+    guid: a9842f4b58d88894ea3fe42478143295
+  - enabled: 0
+    path: Assets/Scenes/AloneLobby.unity
+    guid: 773a17e65bfd5ca44abbc3e7f6b744fb
+  - enabled: 0
+    path: Assets/Scenes/ShoreTest/ShoreTest.unity
+    guid: 1345233322049c24aa5af95578cb091b
+  - enabled: 0
+    path: Assets/Scenes/Fairy1/Fairy1.unity
+    guid: 27099b591c7646c4fac7823b3e286f5d
+  - enabled: 0
+    path: Assets/Scenes/End.unity
+    guid: 20dbe85f09d91044498880f73732b723
+  - enabled: 0
+    path: Assets/Scenes/ShoreTest/Shore_DataSet.unity
+    guid: e3935f3a4dec2fb40af912920ca23e3c
+  - enabled: 0
+    path: Assets/Scenes/login.unity
+    guid: 349553855196b4b48bfb652360cbdf9a
+  - enabled: 0
+    path: Assets/Scenes/ShoreTest/ShoreTest -PUN.unity
+    guid: 1145da0997cf66e4fb98ab2ea612ad76
+  - enabled: 0
+    path: Assets/Scenes/ShoreTest/ShoreTestFinal.unity
+    guid: 84e77ff632e492c4b832df720a012dec
+  - enabled: 0
+    path: Assets/Scenes/ShoreTest/NewSkillTest.unity
+    guid: 6d9a08c13345b4943bd5f7c06a08daad
+  - enabled: 0
+    path: Assets/Scenes/ShoreTest/MainScene.unity
+    guid: b6532262b5175e54080e76ad9b9e87eb
+  - enabled: 1
+    path: Assets/Scenes/ResultScene.unity
+    guid: 063c682db0df6384b82f883324b87cdd
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 0cbed63044e95cf49a611bdc0426191b
+  - enabled: 1
+    path: Assets/Scenes/WaitScene.unity
+    guid: ffcc140137edd7047a6aa5f03ab9fd3b
+  - enabled: 0
+    path: Assets/Scenes/ShoreTest/ShoreTestFinal-TimeLine.unity
+    guid: 69e4815e27608f34b9a71699632e6851
+  - enabled: 0
+    path: Assets/Scenes/ShoreTest/HongTeachScene.unity
+    guid: 8857332902f46db47b957c2b163acbb7
+  - enabled: 0
+    path: Assets/Scenes/ShoreTest/LangTeachScene.unity
+    guid: 7b541389aecbdf643b6c514b87ea2dac
+  - enabled: 1
+    path: Assets/Scenes/LS_edited.unity
+    guid: 715501b7612bf9945a495dbd8d1594e3
+  m_configObjects: {}

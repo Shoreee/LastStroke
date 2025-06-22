@@ -1,0 +1,24 @@
+#pragma kernel CSMain
+
+RWTexture2D<float> _Output;
+StructuredBuffer<float2> _Points;
+int _PointCount;
+int _Radius;
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    float2 pixelPos = float2(id.x, id.y);
+    
+    for (int i = 0; i < _PointCount; ++i)
+    {
+        float2 center = _Points[i];
+        float dist = distance(pixelPos, center);
+        
+        if (dist <= _Radius)
+        {
+            _Output[pixelPos] = 1.0;
+            return;
+        }
+    }
+}

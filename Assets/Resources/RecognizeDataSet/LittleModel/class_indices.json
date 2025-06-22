@@ -1,0 +1,8 @@
+{
+    "labels": [
+        { "key": "0", "value": "fish_images" },
+        { "key": "1", "value": "flower_images" },
+        { "key": "2", "value": "ice-cream_images" },
+        { "key": "3", "value": "tree_images" }
+    ]
+}

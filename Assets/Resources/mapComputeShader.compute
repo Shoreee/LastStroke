@@ -1,0 +1,30 @@
+#pragma kernel Clear
+#pragma kernel CSMain
+
+RWTexture2D<float4> _Output;
+StructuredBuffer<float2> _Points;
+int _PointCount;
+int _Radius;
+float4 _PointColor;
+
+[numthreads(8,8,1)]
+void Clear(uint3 id : SV_DispatchThreadID)
+{
+    _Output[id.xy] = float4(0,0,0,0);
+}
+
+[numthreads(8,8,1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    float2 pixel = float2(id.x, id.y);
+    float4 col = float4(0,0,0,0);
+    for (int i = 0; i < _PointCount; ++i)
+    {
+        if (distance(pixel, _Points[i]) <= _Radius)
+        {
+            col = _PointColor;
+            break;
+        }
+    }
+    _Output[id.xy] = col;
+}

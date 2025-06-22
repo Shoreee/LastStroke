@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_5
+  m_Shader: {fileID: 4800000, guid: 4363bc6633317c0419f99c46e84b9b91, type: 3}
+  m_ShaderKeywords: _G_USE_ONE_ON _MASK_INVERT_ON _USE_DISSOLVE_OR_MUL_ON _USE_FRENSEL_ON
+    _USE_SECOND_TEX_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2009
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Alpha_mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base_Tex:
+        m_Texture: {fileID: 2800000, guid: 7227f885b04884641ad407a447e357d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Color_Tex:
+        m_Texture: {fileID: 2800000, guid: 12c39a6ab6f1e1647a833c7c2904922e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolutionTex:
+        m_Texture: {fileID: 2800000, guid: 52c88edca0c10db4991e10c1a427e05c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dissolve_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distort_Tex:
+        m_Texture: {fileID: 2800000, guid: 1d8bcbacf6c709445a935f117f716abf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distort_mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distort_tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTex1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 54a59887096d6154da2fa52eba3623cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: -2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Tex:
+        m_Texture: {fileID: 2800000, guid: f3f3ce48026210a4da40afdcb8a71e2b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap_tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffset_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WPO_mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _base_tex:
+        m_Texture: {fileID: 2800000, guid: 03a2665d4361f7e4f9e9170bcad36455, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _base_texture:
+        m_Texture: {fileID: 2800000, guid: 03a2665d4361f7e4f9e9170bcad36455, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _color_Tex:
+        m_Texture: {fileID: 2800000, guid: 973c77d1bdea4a64589a9fc186f7855b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _displace_mask_tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _displace_tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _dissolve_tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _dissolve_texture:
+        m_Texture: {fileID: 2800000, guid: 2f029150996d4e9488008772eb7577aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _emissive_tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask_texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _0_Base_1_change: 0
+    - _0_Base_1_change1: 1
+    - _Alpha: 0.62
+    - _Alpha_Constart: 1
+    - _B_Use_one: 0
+    - _B_color_power: 0
+    - _Base_alpha: 1
+    - _Base_color_power: 3
+    - _Base_mask_Choose_channel: 0
+    - _Base_power: 1
+    - _Choose_Mask: 0
+    - _Choose_channel: 3
+    - _Color_power: 2.5
+    - _Constart: 1
+    - _Constart1: 1
+    - _Constart2: 1
+    - _Cull: 0
+    - _DissolutionColor_power: 1
+    - _Dissolve: 1
+    - _Distance: 0
+    - _Distance1: 0
+    - _Distort: 0.34
+    - _DistortIntensity: 0
+    - _DistortIntensity1: 0
+    - _EffectBrightness: 0.5
+    - _Emissive_power: 1
+    - _Fade_distance: 0
+    - _FlowIntensity: 0
+    - _Frensel_flip: 0
+    - _G_Use_one: 1
+    - _G_color_power: 1
+    - _HUE: 0
+    - _Hardness: 22
+    - _Mask_Use_uv_move: 0
+    - _Mask_invert: 1
+    - _R_Use_one: 0
+    - _R_color_power: 0
+    - _RimColor_power: 1
+    - _RimRange: -0.01
+    - _Saturation: 0
+    - _Use_custom1_zw_move: 0
+    - _Use_uv_move: 0
+    - _Value: 0
+    - _Ztest: 4
+    - _Ztest1: 8
+    - _Zwrite: 0
+    - _add_or_blend: 1
+    - _alpha_power: 1
+    - _base_back_power: 1
+    - _base_front_power: 1
+    - _blend: 1
+    - _connect_base_alone: 0
+    - _direction_light_power: 1
+    - _direction_light_step: -0.01
+    - _displace_power: 1
+    - _dissolve: 1
+    - _distort_power: 0.2029095
+    - _edge_hard: 0.6
+    - _edge_hardness: 2
+    - _edge_kill_or_add: 0
+    - _edge_range: 0.1
+    - _frensel: -0.01
+    - _frensel1: -0.01
+    - _frensel_edge: 0
+    - _frensel_edge1: 0
+    - _frensel_flip: 0
+    - _frensel_flip1: 0
+    - _frensel_hard: 0.458
+    - _frensel_range: 0.413
+    - _mask_Choose_channel: 0
+    - _reduce_color: 0
+    - _side: 0
+    - _use_change_color: 0
+    - _use_color_tex: 0
+    - _use_custom1_w_displace: 0
+    - _use_custom1_x_dissolve: 0
+    - _use_custom1_y_displace: 0
+    - _use_custom1_y_distort: 0
+    - _use_custom1_y_distort1: 0
+    - _use_custom1_y_wpo: 0
+    - _use_custom1_z_distort: 0
+    - _use_custom2_xy_mask_uv: 0
+    - _use_custom2_xyzw_control_base_uv: 0
+    - _use_depth: 0
+    - _use_displace: 0
+    - _use_dissolve: 0
+    - _use_dissolve_or_mul: 1
+    - _use_distort: 0
+    - _use_doubel_pass: 0
+    - _use_emissive: 0
+    - _use_frensel: 1
+    - _use_frensel1: 0
+    - _use_normal: 0
+    - _use_second_tex: 1
+    - _wpo_power_all: 1
+    m_Colors:
+    - _B_dark_clolor: {r: 0, g: 0, b: 0, a: 0}
+    - _B_light_color: {r: 0, g: 0, b: 1, a: 0}
+    - _Base_Mask_speed: {r: 1, g: 0, b: 0, a: 0}
+    - _Base_Mask_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _Base_color: {r: 2.338355, g: 1.2641509, b: 4, a: 0}
+    - _Base_speed: {r: 1, g: 0, b: 0, a: 0}
+    - _Base_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Color_speed: {r: 0, g: -1, b: 1, a: 0}
+    - _Color_uv: {r: 3, g: 1.5, b: 0, a: 0}
+    - _DissolutionColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Dissolve_speed: {r: 1, g: 0, b: 0, a: 0}
+    - _Dissolve_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _Distort_repair: {r: 0, g: 0, b: 1, a: 1}
+    - _Distort_speed1: {r: -1, g: 0, b: 0.8, a: 0}
+    - _Distort_uv1: {r: 1, g: 1.5, b: 0, a: 0}
+    - _Emissive_color: {r: 1, g: 1, b: 1, a: 0}
+    - _G_dark_clolor: {r: 0.32353497, g: 0, b: 2, a: 0}
+    - _G_light_color: {r: 1.1474401, g: 0.6221706, b: 3.5648696, a: 0}
+    - _MainTexColor: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
+    - _Mask_speed: {r: 1, g: 0, b: 0, a: 0}
+    - _Mask_uv: {r: 1, g: 1, b: -0.02, a: 0}
+    - _R_dark_clolor: {r: 1, g: 1, b: 1, a: 0}
+    - _R_dark_clolor1: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0}
+    - _R_dark_clolor2: {r: 0.20392157, g: 0, b: 1, a: 0}
+    - _R_light_color: {r: 1, g: 1, b: 1, a: 0}
+    - _R_light_color1: {r: 1, g: 1, b: 1, a: 0}
+    - _R_light_color2: {r: 0.10980392, g: 0.7019608, b: 1, a: 0}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondColor: {r: 1, g: 1, b: 1, a: 0}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WPO_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _base_back_color: {r: 1, g: 0, b: 0, a: 0}
+    - _base_front_color: {r: 1, g: 1, b: 1, a: 0}
+    - _base_speed: {r: 1, g: 0, b: 0, a: 0}
+    - _base_uv: {r: 1, g: 0.5, b: 0, a: 0}
+    - _color_speed: {r: 1, g: 0, b: 1, a: 0}
+    - _color_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _direction: {r: 0, g: 1, b: 0, a: 0}
+    - _direction_light_color: {r: 0, g: 0, b: 0, a: 1}
+    - _displace_mask_speed: {r: 0, g: 0, b: 1, a: 0}
+    - _displace_mask_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _displace_speed: {r: 0, g: 0, b: 1, a: 0}
+    - _displace_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _disslove_speed: {r: 0, g: 0, b: 0, a: 0}
+    - _disslove_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _dissolve_speed: {r: 0, g: 0, b: 0, a: 0}
+    - _dissolve_uv: {r: 1.51, g: 0.81, b: 0, a: 0}
+    - _distort_direction: {r: 1, g: 0, b: 0, a: 0}
+    - _distort_speed: {r: 1, g: 0, b: 1, a: 0}
+    - _distort_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _emissive_speed: {r: 1, g: 0, b: 1, a: 0}
+    - _emissive_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _mask_speed: {r: 0, g: 0, b: 0, a: 0}
+    - _mask_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _normal_speed: {r: 0, g: 0, b: 0, a: 0}
+    - _normal_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _second_speed: {r: 1, g: 0, b: 0, a: 0}
+    - _second_uv: {r: 1, g: 1, b: 0, a: 0}
+    - _wpo_power: {r: 0, g: 0, b: 0, a: 0}
+    - _wpo_repair: {r: 0, g: 0, b: 0, a: 0}
+    - _wpo_speed: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

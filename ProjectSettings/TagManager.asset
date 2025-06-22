@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Paintable
+  - Wall
+  - Water
+  - Boid
+  - tornadoArea
+  - Flower
+  - Lang
+  - Hong
+  - Item
+  - Interactive
+  - Boss
+  - Enemy
+  - Tornado
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - NotEntity
+  - Grass
+  - Flower
+  - Enemy
+  - Book
+  - MinMap
+  - Paintable
+  - 
+  - DissolveOutline
+  - 
+  - 
+  - Text
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - handle
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
